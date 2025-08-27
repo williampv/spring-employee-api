@@ -14,5 +14,8 @@ public class Employee {
     private String lastName;
     @Column(name = "email", unique = true, nullable = false)
     private String email;
+    private String contactNo;
+    private String city;
+    private String address;
 
 }
